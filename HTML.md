@@ -59,12 +59,14 @@ Ghi chú: Văn bản thô (plain text/unformatted text) không bao gồm thông 
 
 _Phần tử rổng chỉ có thẻ mở._
  
+ ```
 – Cách một: <br>, <hr>, <img>, <meta>
 
 – Cách hai: <br />, <hr />, <img />, <meta />
 
 – Cách ba: <br/>, <hr/>, <img/>, <meta/>
-
+```
+ 
 Thêm thuộc tính vào phần tử: 
  
  ```
