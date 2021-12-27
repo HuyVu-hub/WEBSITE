@@ -35,12 +35,14 @@ Ghi chú: Văn bản thô (plain text/unformatted text) không bao gồm thông 
  
 **Cấu trúc và ngữ nghĩa cho nội dung**
  
+ ```
  - Cấu trúc (structure): Bố cục trang Web (Tiêu đề, logo, menu, nội dung chính, phần bên trái, phần bên phải, phân chân, v.v) -> CSS
  - Ngữ nghĩa (meaning/semantic): Thể hiện bằng các thẻ (h1, h2, a, p, v.v)
  
  HTML tập trung biểu diễn nội dung, cấu trúc, ngữ nghĩa -> tạo bố cục outline hợp lý tạo thành DOM tree (Document Object Model) -> tạo tính dễ dàng khi trang trí bắng css hay tướng tác phần tử bằng javascript.
  
  - <h1> là tiêu đề mức cao nhất, được trình duyệt ưu tiên.
+ ```
  
 **block và inline**
  
@@ -111,8 +113,9 @@ font-family: serif;
  
  **_Văn bản và đề mục:_**
  
-  - <p> là phần tử cơ bản trong html, viết tắt paragraph
- 
+ ```
+  <p> là phần tử cơ bản trong html, viết tắt paragraph
+ ```
  
  
  
