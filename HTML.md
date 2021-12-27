@@ -107,4 +107,15 @@ font-family: serif;
 </head>
  ```
  
+ **Hiển thị văn bản**
+ 
+ **_Văn bản và đề mục:_**
+ 
+  - <p> là phần tử cơ bản trong html, viết tắt paragraph
+ 
+ 
+ 
+ 
+ 
+ 
  
