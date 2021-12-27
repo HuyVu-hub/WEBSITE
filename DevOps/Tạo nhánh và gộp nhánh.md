@@ -163,3 +163,56 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 **xử lý xung đột khi gộp nhánh**
 
+Xóa phần và giữ các phần khác nhau trong 2 nhánh thuc hien gộp
+
+```
+$ git add .
+$ git commit -m"C8"
+
+------------------------------------
+
+$ git checkout alpha
+$ git log --oneline
+bbc3757 (HEAD -> alpha) C4
+c7d81e3 C3
+0d7ae45 C2
+927163b C1
+efab635 C0
+
+------------------------------------
+
+$ git checkout master
+$ git log --oneline
+a252058 (HEAD -> master) C8
+89b19cb C7
+eda207b C6
+2c3fa4d C5
+bbc3757 (alpha) C4
+c7d81e3 C3
+0d7ae45 C2
+927163b C1
+efab635 C0
+```
+
+**xử lý xung đột với mergetool**
+
+Một giao diện đồ họa mở các file xung đột xuất hiện, hãy sửa từng file. Khi đang trong giao diện đó muốn giữ nội dung từ local (master) thì gõ :diffg LO, muốn giữ nội dung từ remote (alpha) :diffg RE, sau đó thoát mergetool gõ lệnh :wqa. Sau khi thoát thì bạn đã sẵn sàng để commit
+
+```
+B1: diffg LO
+
+![image](https://user-images.githubusercontent.com/69178270/147461730-a920aa98-6c38-414e-93b6-d36190eaa305.png)
+
+B2: :diffg RE
+
+B3: :wqa
+```
+
+
+
+
+
+
+
+
+
