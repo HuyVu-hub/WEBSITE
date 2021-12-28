@@ -28,11 +28,13 @@ Ghi chú: Văn bản thô (plain text/unformatted text) không bao gồm thông 
 
 ![image](https://user-images.githubusercontent.com/69178270/147305382-d3e2a649-cbf8-4346-9af1-71fd23b9a1d5.png)
 
+```
  - <!DOCTYPE html> không phải là một dạng thẻ. Khai báo phiên bản html cho browser.
  - Phần tử <html> sẽ chứa toàn bộ nội dung -> root element, phần tử chính
  - Phần tử <head> chứa thông tin mô tả (tiêu đề title, css, javascript)
  - Phần tử <body> chứa nội dung cần hiển thị.
- 
+```
+
 **Cấu trúc và ngữ nghĩa cho nội dung**
  
  ```
