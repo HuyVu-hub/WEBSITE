@@ -87,6 +87,8 @@ Thêm thuộc tính vào phần tử:
 </head>
 ```
 
+Phẩn tử meta mô tả 1 số đặc tính của trang web
+
 UTF-8: Unicode Transformation Format (Định dạng chuyển đổi Unicode 8-bit).
 
  **Thêm CSS**
