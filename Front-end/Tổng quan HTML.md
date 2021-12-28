@@ -125,7 +125,7 @@ font-family: serif;
  
  **Hiển thị văn bản**
  
- **_Văn bản và đề mục:_**
+ **_Văn bản:_**
  
  ```
   <p> là phần tử cơ bản trong html, viết tắt paragraph.
@@ -136,5 +136,126 @@ font-family: serif;
  Ngoài việc chứa văn bản, còn có thể chứa hình ảnh, các phần tử inline
  
  
+ **_Đề mục:_**
  
+ Heading thường là 1 từ, cụm từ, kí hiệu giúp tìm kiếm và định vị thông tin.
  
+ Thường mang nhiều cấp khác nhau, thể hiện cấu trúc, bố cục hay bộ khung (outline)
+ 
+ Tạo đề mục: h1 -> h6
+ 
+ h1 sẽ là đề mục ở mức cao nhất.
+ 
+ Trình duyệt sử dụng heading để tạo ra bố cục cho văn bản.
+ 
+ Các công cụ tìm kiếm cũng sử dụng thuật toán tìm kiếm, các đề mục mức cao sẽ có trọng số lớn hơn.
+ 
+**Đánh dấu kết thúc một chủ đề**
+
+Sử dụng phần tử hr
+
+```
+<hr>
+```
+
+Nều chỉ muốn tạo 1 đường kẻ ngang trên trang web nên sử dụng border trong CSS thay vì sử dụng hr
+
+![image](https://user-images.githubusercontent.com/69178270/147547399-d54e3d9b-f1c3-4291-81d8-3db50ce8b3c5.png)
+
+**Danh sách**
+
+3 loại danh sách
+
+-  Danh sách không có thứ tự (unordered list)
+-  Danh sách có thứ tự (ordered list)
+-  Danh sách mô tả (description list)
+
+Mặc định phần tử trong danh sách hiển thị theo kiểu block
+
+
+_Danh sách không có thứ tự_
+
+Một dãy các mục (item), tính trước sau của mỗi mục là không quan trọng.
+
+Mỗi mục thường được dánh dấu bằng kí tự đầu dòng (bullet) -> phần lớn các danh sách sẽ thuộc loại này
+
+Để tạo danh sách không có thứ tự sử dụng thẻ ul (unordered list, danh sách không có thứ tự)
+
+Để tạo mỗi mục của danh sách sử dụng thẻ li (list item, mục của danh sách)
+
+```
+<ul>
+
+            <li>phần tử 1</li>
+
+            <li>phần tử 2</li>
+
+</ul>
+
+[HTML]
+
+<ul>
+
+            <li>Mãng cầu</li>
+
+            <li>Trái dừa</li>
+
+            <li>Ổ qua</li>
+
+            <li>Khoai môn</li>
+
+</ul>
+```
+
+Mỗi mục sẽ được đánh dấu chầm tròn.
+
+_Danh sách có thứ tự_
+
+Tính trước sau mang tính quan trọng.
+
+Tạo danh sách thứ tự sử dụng thẻ ol (ordered list, danh sách có thứ tự)
+
+Dánh sách tạo thành có đánh thứ tự.
+
+_Danh sách mô tả_
+
+Tạo danh sách mô tả sử dụng thẻ dl (description list)
+
+dt (description term) tạo mục cho danh sách
+
+dd (describe a definition/define a description) mô tả cho mục
+
+
+```
+Chú ý: Phần tử dl chỉ chứa các phần tử dt và dd.
+```
+
+_Danh sách lồng nhau_
+
+```
+<ol>
+
+            <li>Mục 1</li>
+
+            <li>Mục 2
+
+                        <ul>
+
+                                    <li>Nội dung 1</li>
+
+                                    <li>Nội dung 2</li>
+
+                        </ul>
+
+            </li>
+
+            <li>Mục 3</li>
+
+</ol>
+```
+
+
+
+
+
+
