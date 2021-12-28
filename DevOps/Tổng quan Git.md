@@ -27,7 +27,7 @@ _**1. Hệ thống cục bộ:**_ Cách làm thủ công, người dùng tự l�
 
 Nhược điểm: khó quản lý.
 
-Sử dụng công cụ quản lý cục bộ RCS. Nó có thể lưu trữ mỗi phiên bản trong 1 thư mục, sử dũng csdl để quản lý thông tin các thư mục. Không hỗ trợ trên môi trường cộng tác nhiều người.
+Sử dụng công cụ quản lý cục bộ RCS. Nó có thể lưu trữ mỗi phiên bản trong 1 thư mục, sử dụng csdl để quản lý thông tin các thư mục. Không hỗ trợ trên môi trường cộng tác nhiều người.
 
 ![image](https://user-images.githubusercontent.com/69178270/147426223-8dd3e49a-0fe0-4e34-9be4-265bff991afc.png)
 
