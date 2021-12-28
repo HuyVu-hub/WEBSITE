@@ -196,6 +196,10 @@ efab635 C0
 
 **xử lý xung đột với mergetool**
 
+```
+$ git mergetool
+```
+
 Một giao diện đồ họa mở các file xung đột xuất hiện, hãy sửa từng file. Khi đang trong giao diện đó muốn giữ nội dung từ local (master) thì gõ :diffg LO, muốn giữ nội dung từ remote (alpha) :diffg RE, sau đó thoát mergetool gõ lệnh :wqa. Sau khi thoát thì bạn đã sẵn sàng để commit
 
 ```
@@ -208,6 +212,7 @@ B2: :diffg RE
 B3: :wqa
 ```
 
+**Tạo nhánh mới từ một thời điểm trong lịch sử commit**
 
 
 
