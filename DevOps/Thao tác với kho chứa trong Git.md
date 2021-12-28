@@ -325,5 +325,7 @@ $ git checkout -- index.txt
 
 **Làm việc với kho chứa ở xa**
 
- 
+ ![image](https://user-images.githubusercontent.com/69178270/147524378-8943f4cc-8163-4525-811f-b89af6d12352.png)
+
+Kho chứa ở xa (remote repository) là 1 hay nhiều phiên bản khác nhau của dự án trên Internet hay trên chính máy tính cá nhân.
 
