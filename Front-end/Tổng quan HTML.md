@@ -79,6 +79,16 @@ Thêm thuộc tính vào phần tử:
  
  ![image](https://user-images.githubusercontent.com/69178270/147309372-b9fb16b3-c2fa-452c-a3d1-51d58b413e1c.png)
 
+**Hiển thị tiếng việt**
+
+```
+<head>
+  <meta charset="utf-8">
+</head>
+```
+
+UTF-8: Unicode Transformation Format (Định dạng chuyển đổi Unicode 8-bit).
+
  **Thêm CSS**
  
  ```
@@ -116,10 +126,12 @@ font-family: serif;
  **_Văn bản và đề mục:_**
  
  ```
-  <p> là phần tử cơ bản trong html, viết tắt paragraph
+  <p> là phần tử cơ bản trong html, viết tắt paragraph.
+  
+  Ở chế độ mặc định <p> được hiểu theo kiểu block.
  ```
  
- 
+ Ngoài việc chứa văn bản, còn có thể chứa hình ảnh, các phần tử inline
  
  
  
