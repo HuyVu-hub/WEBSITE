@@ -217,6 +217,24 @@ Tạo danh sách thứ tự sử dụng thẻ ol (ordered list, danh sách có t
 
 Dánh sách tạo thành có đánh thứ tự.
 
+```
+Danh sách bắt đầu từ số 4
+
+<ol start="4">
+
+            <li>Lê Văn Bơ</li>
+
+            <li>Trần Văn Mít</li>
+
+            <li>Nguyễn Văn Tèo</li>
+
+</ol>
+```
+
+Một số cấu trúc
+
+![image](https://user-images.githubusercontent.com/69178270/147619305-33dffba2-37d7-467c-a3ca-d95cbf833c80.png)
+
 _Danh sách mô tả_
 
 Tạo danh sách mô tả sử dụng thẻ dl (description list)
