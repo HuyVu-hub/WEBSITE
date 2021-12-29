@@ -272,8 +272,96 @@ _Danh sách lồng nhau_
 </ol>
 ```
 
+**Một số phần tử hiển thị nội dung khác**
 
+Hiển thị một trích dẫn dài (long quotations)
 
+```
+- Đánh dấu nội dung được trích dẫn dài từ nguồn khác, lời nhận xét của khách hàng, phần sao chép từ nguồn khác: blockquote
+- Nội dung bên trong blockquote nên được bọc lại: p,heading, ol, ul, dl.
+```
+
+```
+<p>Đôi khi cũng phải nhìn lại bản thân, phải yêu bản thân mình, phải thương lấy nó, bởi nó là người bạn gần gũi nhất, trung thành nhất, yêu chứ không nuông chiều, như Sophia Loren đã nói:</p>
+
+<blockquote>
+
+            <p>Hãy yêu bản thân vô điều kiện, như là bạn yêu những người thân thiết với mình bất chấp khuyết điểm của họ.</p>
+
+            <p>Love yourself unconditionally, just as you love those closest to you despite their faults.</p>
+
+</blockquote>
+```
+
+**Hiển thị văn bản được định dạng sẵn**
+
+Sử dụng thẻ pre trình duyệt sẽ hiển thị đúng những gì có ở đoạn mã nguồn
+
+```
+            <pre>
+
+            NGÀY ĐẦU TIÊN ĐI HỌC
+
+           
+
+            Ngày đầu tiên đi học
+
+            Mẹ dắt tay đến trường
+
+            Em vừa đi vừa khóc
+
+            Mẹ dỗ dành bên em
+
+ 
+
+                        Tác giả: Viễn Phương
+
+            </pre>
+```
+
+**Phần tử figure và figcapion**
+
+Đây là phần tử hiển thị khối (block) chứa hình ảnh, đoạn mã, video, bảng và các dữ liệu khác.
+
+```
+[HTML]
+
+<figure>
+
+                        <img src="HTML-structure.png" alt="HTML document structure">
+
+                        <figcaption>
+
+                                    Cấu trúc một tài liệu HTML
+
+                        </figcaption>
+
+            </figure>
+
+Ví dụ, hiển thị đoạn mã và chú thích
+
+<figure>
+
+                        <pre><code>
+
+                                    body {
+
+                                                background-color: #000;
+
+                                                color: red;
+
+                                    }
+
+                        </code></pre>
+
+                        <figcaption>
+
+                                    Cú pháp viết CSS
+
+                        </figcaption>
+
+            </figure>
+```
 
 
 
